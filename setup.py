@@ -1,22 +1,16 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
-
-try:
-    long_description = open("README.rst").read()
-except IOError:
-    long_description = ""
+from setuptools import setup
 
 setup(
-    name="add-package",
+    name="screenhandler",
     version="0.1.0",
     description="Pip package by Enmanuel Reynoso",
     license="MIT",
     author="Enmanuel Reynoso",
-    packages=['add-package'],
+    packages=['screenhandler'],
     install_requires=[],
-    long_description=long_description,
+    zip_safe=False,
     classifiers=[
-        "Programming Language :: Python",
         "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: MIT License"
         "Operating System :: OS Independent"
